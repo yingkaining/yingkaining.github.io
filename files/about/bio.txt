@@ -1,0 +1,3 @@
+Kaining Ying received the B.E. degree from Zhejiang University of Technology, Hangzhou, China, in 2021. 
+He is currently pursuing the M.E. degree in the College of Computer Science, Zhejiang University of Technology, supervised by Dr. Zhenhua Wang.
+His research interests include deep learning and computer vision.

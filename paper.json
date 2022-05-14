@@ -10,7 +10,7 @@
         "pdf": "./files/papers/pdf/mmgraph.pdf",
         "equal": true,
         "meta" :{
-            "github": "https://github.com/LanceZPF/NNED_MMGraph"
+            "GitHub": "https://github.com/LanceZPF/NNED_MMGraph"
         }
     },
     {
@@ -23,9 +23,9 @@
         "pdf": "./files/papers/pdf/isda.pdf",
         "equal": false,
         "meta" :{
-            "github": "https://github.com/yingkaining/isda",
-            "arxiv": "https://arxiv.org/abs/2202.12251",
-            "bibtex": "./files/papers/bib/ying2022isda.bib"
+            "GitHub": "https://github.com/yingkaining/isda",
+            "arXiv": "https://arxiv.org/abs/2202.12251",
+            "BibTex": "./files/papers/bib/ying2022isda.bib"
         }
     },
     {
@@ -38,7 +38,7 @@
         "pdf": "./files/papers/pdf/rwmf.pdf",
         "equal": false,
         "meta" :{
-            "bibtex": "./files/papers/bib/zhou2021rwmf.bib"
+            "BibTex": "./files/papers/bib/zhou2021rwmf.bib"
         }
     }
 ]
