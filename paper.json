@@ -1,17 +1,17 @@
 [
-    
     {
         "title": "Self-supervised Enhancement for Named Entity Disambiguation via Multimodal Graph Convolution",
         "author": [ "Pengfei Zhou*", "Kaining Ying*", "Zhenhua Wang", "Dongyan Guo", "Cong Bai"],
         "description": "We present MMGraph, which uses multimodal graph convolution to aggregate visual and contextual language information for accurate entity disambiguation for short texts, and a self-supervised simple triplet network (SimTri) that can learn useful representations in multimodal unlabeled data to enhance the effectiveness of NED models.",
         "year": "2022",
         "publisher": "TNNLS",
-        "image": "./files/papers/images/mmgraph.png",
-        "pdf": "./files/papers/pdf/mmgraph.pdf",
+        "image": "./files/papers/mmgraph_tnnls_2022/mmgraph.png",
+        "pdf": "./files/papers/mmgraph_tnnls_2022/mmgraph.pdf",
         "equal": true,
+        "oral": false,
         "meta" :{
             "GitHub": "https://github.com/LanceZPF/NNED_MMGraph",
-            "Early Acess": "https://ieeexplore.ieee.org/document/9774860"
+            "Early Access": "https://ieeexplore.ieee.org/document/9774860"
         }
     },
     {
@@ -20,13 +20,17 @@
         "description": "We present a novel end-to-end Instance Segmentation framework based on Transformer and get 38.7 mAP with ResNet-50 on MS COCO test-dev.",
         "year": "2022",
         "publisher": "ICASSP",
-        "image": "./files/papers/images/isda.png",
-        "pdf": "./files/papers/pdf/isda.pdf",
+        "image": "./files/papers/isda_icassp_2022/isda.png",
+        "pdf": "./files/papers/isda_icassp_2022/camera_ready.pdf",
         "equal": false,
+        "oral": true,
         "meta" :{
             "GitHub": "https://github.com/yingkaining/isda",
             "arXiv": "https://arxiv.org/abs/2202.12251",
-            "BibTex": "./files/papers/bib/ying2022isda.bib"
+            "BibTex": "./files/papers/isda_icassp_2022/ying2022isda.bib",
+            "Video": "https://www.bilibili.com/video/BV1RT4y1Y7qW?spm_id_from=333.999.0.0",
+            "Poster": "./files/papers/isda_icassp_2022/poster.pdf",
+            "Slides": "./files/papers/isda_icassp_2022/slides.pptx"
         }
     },
     {
@@ -35,11 +39,12 @@
         "description": "We establish a real-world foodlog database using various methods such as filter, cluster and graph convolutional network. This database is built based on real-world lifelog and medical data, which is named as Real-World Multimodal Foodlog (RWMF).",
         "year": "2020",
         "publisher": "ICPR",
-        "image": "./files/papers/images/rwmf.png",
-        "pdf": "./files/papers/pdf/rwmf.pdf",
+        "image": "./files/papers/rwmf_icpr_2020/rwmf.png",
+        "pdf": "./files/papers/rwmf_icpr_2020/rwmf.pdf",
         "equal": false,
+        "oral": false,
         "meta" :{
-            "BibTex": "./files/papers/bib/zhou2021rwmf.bib"
+            "BibTex": "./files/papers/rwmf_icpr_2020/zhou2021rwmf.bib"
         }
     }
 ]

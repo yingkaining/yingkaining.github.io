@@ -17,13 +17,20 @@ window.onload = function() {
                 var publisher = obj[i].publisher
                 var year = obj[i].year
                 var equal = obj[i].equal
+                var oral = obj[i].oral
                 var description = obj[i].description
                 
+                
+                oral_str = ""
+                if(oral == true) {
+                    oral_str = "(Oral)"
+                }
+
                 var equal_str = ""
                 if(equal == true) {
                     equal_str = "(* Equal contribution)"
                 }
-                
+
                 for(var j=0 ; j<author.length ; j++){
                     if(author[j] == "Kaining Ying" || author[j] == "Kaining Ying*"){
                         author[j] = "<b>" + author[j] + "</b>";
@@ -54,7 +61,7 @@ window.onload = function() {
                         <a href=" + pdf + " style='font-size:18px'>" + title + "</a> &nbsp&nbsp\
                         <br>" + author_str + 
                         "<br>\
-                        <em>"+ publisher + year + equal_str + "</em> ,\
+                        <em>"+ publisher + year + oral_str + equal_str + "</em> ,\
                         <br>\
                         <font color='black'> " + description +"<br>\
                         " + meta_str + " <br> \
